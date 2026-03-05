@@ -154,8 +154,8 @@ export default function OrderPage() {
   return (
     <div style={{ minHeight: "100vh" }}>
       <header style={{ background: "#3e2723", color: "#fdf6e3", padding: "1.5rem 2rem", textAlign: "center" }}>
-        <h1 style={{ fontSize: "1.75rem", fontWeight: 700, letterSpacing: "0.02em", marginBottom: "0.25rem" }}>Westman&apos;s Bagel &amp; Coffee</h1>
-        <p style={{ fontSize: "0.95rem", opacity: 0.85 }}>Office Group Order &mdash; Thursday, March 12</p>
+        <h1 style={{ fontSize: "1.75rem", fontWeight: 700, letterSpacing: "0.02em", marginBottom: "0.25rem" }}>Seattle Office Bagel Day!</h1>
+        <p style={{ fontSize: "0.95rem", opacity: 0.85 }}>Westman&apos;s Bagel &amp; Coffee &mdash; Thursday, March 12</p>
       </header>
       <div style={{ maxWidth: 960, margin: "0 auto", padding: "1.5rem 1rem", display: "grid", gridTemplateColumns: "1fr 340px", gap: "1.5rem", alignItems: "start" }}>
         <div>
