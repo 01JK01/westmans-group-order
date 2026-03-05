@@ -82,7 +82,7 @@ export default function AdminPage() {
   return (
     <div style={{ minHeight: "100vh" }}>
       <header style={{ background: "#3e2723", color: "#fdf6e3", padding: "1rem 2rem", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <div><h1 style={{ fontSize: "1.25rem", fontWeight: 700 }}>Westman&apos;s Group Order &mdash; Admin</h1></div>
+        <div><h1 style={{ fontSize: "1.25rem", fontWeight: 700 }}>Seattle Office Bagel Day! &mdash; Admin</h1></div>
         <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
           <label style={{ fontSize: "0.8rem", display: "flex", gap: "0.35rem", alignItems: "center" }}><input type="checkbox" checked={autoRefresh} onChange={(e) => setAutoRefresh(e.target.checked)} style={{ accentColor: "#f5a623" }} />Auto-refresh</label>
           <button onClick={fetchOrders} style={{ background: "rgba(255,255,255,0.15)", border: "1px solid rgba(255,255,255,0.3)", color: "white", borderRadius: "6px", padding: "0.35rem 0.75rem", cursor: "pointer", fontSize: "0.85rem" }}>{loading ? "..." : "Refresh"}</button>
